@@ -13,7 +13,7 @@ function Button({ children, disabled, to, onclick, type }) {
   };
   if (to)
     return (
-      <Link className={style[type]} to="/order/new">
+      <Link className={style[type]} to={to}>
         {children}
       </Link>
     );
